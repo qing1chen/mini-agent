@@ -1,0 +1,47 @@
+{
+  "session_id": "04b33ab58b781000",
+  "messages": [
+    {
+      "role": "user",
+      "content": "一加一等于"
+    },
+    {
+      "role": "assistant",
+      "content": "这个问题不需要使用工具计算，我可以直接回答：\n\n一加一等于二。"
+    }
+  ],
+  "state": {
+    "todos": [],
+    "notes": {}
+  },
+  "metadata": {
+    "created_at": "2026-06-06T20:02:33.645559",
+    "last_active": "2026-06-06T20:02:39.722000",
+    "turn_count": 1
+  },
+  "traces": [
+    [
+      {
+        "step": 1,
+        "type": "user_input",
+        "content": "一加一等于",
+        "metadata": {},
+        "timestamp": "2026-06-06T20:02:38.518164"
+      },
+      {
+        "step": 2,
+        "type": "loop_start",
+        "content": "max=30",
+        "metadata": {},
+        "timestamp": "2026-06-06T20:02:38.518164"
+      },
+      {
+        "step": 3,
+        "type": "final_answer",
+        "content": "这个问题不需要使用工具计算，我可以直接回答：\n\n一加一等于二。",
+        "metadata": {},
+        "timestamp": "2026-06-06T20:02:39.720999"
+      }
+    ]
+  ]
+}
